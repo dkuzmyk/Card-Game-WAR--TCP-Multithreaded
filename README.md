@@ -1,4 +1,4 @@
-# Homework 3: WAR: A Card game
+WAR: A Card game
 
 
 This assignment will require you to write an implementation of a server for a very simple stateful network protocol. You will implement both the server and the client, and they will be expected both to speak the protocol correctly to each other as well as to speak the protocol correctly with our own reference implementation.
@@ -233,32 +233,7 @@ Except in exceptional cases, all games should complete in well under **one secon
 
 </table>
 
-This assignment will be graded out of 10 points, and is worth as much as every other homework assignment.
 
-
-## Submission Instructions
-
-- Write your netid to the netid file:
-
-Note: If your email address is your_net_id@uic.edu your netid is "your_net_id"
-
-```sh
-echo "your_net_id" > netid
-```
-
-
-The files which will be submitted:
-* `war.py`: This file will contain the implementation of the server
-
-* Do not change the arguments to the `war.py` script or the `serve_game` function.
-
-- When you are ready to sumit your homework, push it back to the repository for grading
-
-```sh
-git add . 
-git commit -m "<add your comment here>" 
-git push origin master
-```
 
 
 
